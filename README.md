@@ -34,7 +34,8 @@ Also, the "-verbose" parameter in PowerShell directs the script to provide descr
 3. Start PowerShell elevated
 4. In PowerShell, change directory to the scripts folder (ex. C:\Optimize)
 5. Run the following PowerShell commands:  
-**"Set-ExecutionPolicy -ExecutionPolicy RemoteSigned"**  
+**"Set-ExecutionPolicy -ExecutionPolicy RemoteSigned"**
+**"Unblock-File .\Win10_VirtualDesktop_Optimize.ps1"**
 **".\Win10_VirtualDesktop_Optimize.ps1 -WindowsVersion 2004 -Verbose**  
 6. When complete, you should see a prompt to restart.  You do not have to restart right away.
 
